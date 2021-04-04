@@ -132,7 +132,7 @@ public class AddressbookUI extends UI {
         contactList.setContainerDataSource(new BeanItemContainer<>(
                 Contact.class, service.findAll(stringFilter)));
         contactForm.setVisible(false);
-        system.out.println("Test Jenkins Pipeline Jobs 2")
+        system.out.println("Test Jenkins Pipeline Jobs 3")
     }
 
     /*
